@@ -1,0 +1,202 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    font-family: (HankenGrotesk-VariableFont_wghtttf);
+    background-color: rgb(238, 240, 241);
+}
+.content{
+    background-color: white;
+    height:300px;
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-radius: 20px;
+}
+
+
+/* First box section */
+.firstsector{
+    background-color: rgb(69, 29, 212);
+    border-radius: 20px;
+    display: grid;
+    grid-template-rows: 5fr 8fr 3.5fr ;
+    place-content: center;
+    text-align: center;
+    color:white;
+    padding:22px;
+}
+h1{
+    font-size: 37px;
+}
+.round{
+    width:100px;
+    border-radius: 100%;
+    background: rgb(70,21,131);
+background: linear-gradient(180deg, rgba(70,21,131,1) 31%, rgba(88,5,224,1) 69%, rgba(121,66,214,1) 85%);
+    padding:16px 30px 16px 30px;
+    margin:0px 0px 0px 88px
+   
+    
+
+}
+.great{
+    margin:0px 32px 0px 32px;
+}
+
+/* SECONG BOX SECTION */
+
+.secondsector{
+    background-color: white;
+    padding:30px;
+    border-radius: 20px;
+}
+.firstbox, .secondbox, .thirdbox, .fourthbox{
+    display:flex;
+    align-items: center;
+   padding:5px 2px 5px 2px;
+    margin:10px 10px 10px 0px;
+    border-radius: 7px;
+}
+.firstbox{
+    background-color: rgba(255, 0, 0, 0.117);
+    
+}
+.secondbox
+{
+    background-color: rgba(255, 251, 0, 0.117);
+}
+.thirdbox{
+    background-color: rgba(14, 255, 151, 0.123);
+}
+.fourthbox{
+    background-color: rgba(34, 20, 229, 0.123);
+
+}
+.das{
+    margin:0px 5px 0px 0px;
+
+}
+.yellow{
+    color:rgb(241, 225, 5);
+    margin: 0px 164px 0px 0px;
+}
+.green{
+    color: rgb(115, 228, 190);
+    margin: 0px 175px 0px 0px;
+}
+.violet{
+    color:rgb(19, 19, 220);
+    margin: 0px 177px 0px 0px;
+}
+.sad{
+    margin: 0px 160px 0px 0px;
+    color:red;
+}
+.dsa{
+    color:rgba(64, 56, 56, 0.698)
+
+}
+span{
+    font-weight: bold;
+    color:black;
+
+}
+button{
+    background-color: rgb(36, 33, 33);
+    width: 300px;
+    border-radius: 40px;
+    height:40px;
+    color:white;
+    margin-left:6px
+}
+
+
+@media screen and (max-width:700px){
+    body{
+        width:100vh;
+        height:100vh;
+    }
+    .content{
+        background-color: white;
+        height:600px;
+        width:450px;
+    
+        display: 
+        flex;
+        flex-direction: column;
+        border-radius: 20px;
+    }
+    h3{
+        margin: 20px 0px 0px 0px;
+    }
+    
+.firstbox{
+    background-color: rgba(255, 0, 0, 0.117);
+    
+}
+.secondbox
+{
+    background-color: rgba(255, 251, 0, 0.117);
+}
+.thirdbox{
+    background-color: rgba(14, 255, 151, 0.123);
+}
+.fourthbox{
+    background-color: rgba(34, 20, 229, 0.123);
+
+}
+.das{
+    margin:0px 5px 0px 0px;
+
+}
+.yellow{
+    color:rgb(241, 225, 5);
+    margin: 0px 164px 0px 0px;
+}
+.green{
+    color: rgb(115, 228, 190);
+    margin: 0px 175px 0px 0px;
+}
+.violet{
+    color:rgb(19, 19, 220);
+    margin: 0px 177px 0px 0px;
+}
+.sad{
+    margin: 0px 160px 0px 0px;
+    color:red;
+}
+.dsa{
+    color:rgba(64, 56, 56, 0.698)
+
+}
+span{
+    font-weight: bold;
+    color:black;
+
+}
+button{
+    background-color: rgb(36, 33, 33);
+    width: 300px;
+    border-radius: 40px;
+    height:40px;
+    color:white;
+    margin-left:33px
+}
+}
+.round{
+    width:100px;
+    border-radius: 100%;
+    background: rgb(70,21,131);
+background: linear-gradient(180deg, rgba(70,21,131,1) 31%, rgba(88,5,224,1) 69%, rgba(121,66,214,1) 85%);
+    padding:16px 30px 16px 30px;
+    margin:0px 0px 20px 143px
+   
+    
+
+}
